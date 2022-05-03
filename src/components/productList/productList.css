@@ -1,0 +1,43 @@
+.pl {
+	padding: 50px 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.pl-texts {
+	width: 65%;
+}
+
+.pl-title {
+	font-size: 50px;
+	font-weight: 600;
+}
+
+.pl-desc {
+	margin: 20px 0px;
+}
+
+.pl-list {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap; /*This automatically wraps the over-sized boxes to the next column*/
+	justify-content: space-between;
+	/*border: 1px solid black;*/
+}
+
+
+@media screen and (max-width:  480px) {
+	.pl {
+		padding: 10px;
+		/*flex-direction: column;
+		text-align: center;
+		margin-top: 100px;*/
+	}
+
+	.pl-texts {
+		width: 100%;
+	}
+
+}

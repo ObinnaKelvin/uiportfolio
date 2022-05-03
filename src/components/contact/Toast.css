@@ -1,0 +1,64 @@
+.t-body {
+	display: grid;
+	grid-template-columns: 0.7fr 4fr 0.5fr;
+	align-items: center;
+	/*justify-content: space-between;*/
+	margin: 30px;
+	width: 410px;
+	padding: 15px;	
+	position: relative;
+	border-left: 5px solid #d1c4e9;
+	border-radius: 10px;
+	/*transform: translate(600px);*/
+
+	animation: toast-in-right .7s;
+
+}
+
+.t-icon {
+	height: 30px;
+	width: 30px;
+}
+
+.t-body-left {
+	/*width: 10%;*/
+}
+
+.t-body-middle {
+	color: #7e57c2;
+	/*width: 89%;*/
+}
+
+.t-body-middle p:first-child {
+	font-size: 15px;
+	color: #7e57c2;
+	/*width: 89%;*/
+}
+
+.t-body-middle p:last-child {
+	font-size: 14px;
+	color: black;
+	/*color: #7e57c2;*/
+	/*width: 89%;*/
+}
+
+#t-body-right {
+	width: 20px;
+	height: 40px;
+	padding: 5px;
+	border-radius: 0px;
+	align-self: flex-start;
+	background-color: transparent;
+	color: #656565;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+@keyframes toast-in-right {
+	from {
+		transform: translateX(100%);
+	}
+	to {
+		transform: translateX(0);
+	}
+}

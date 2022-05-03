@@ -1,0 +1,169 @@
+.i {
+	display: flex;
+	height: 100vh;
+/*	background-color: aqua;*/
+	border: 1px solid blueviolet;  /*For Troubleshooting*/
+}
+
+.i-left{
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.i-right{
+	flex: 1;
+	position: relative;
+	/*border: 1px solid black;*/
+}
+.i-left-wrapper{
+	padding: 50px;
+	height: 50%;
+	/*border: 1px solid black;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.i-intro {
+	font-size: 30px;
+	font-weight: 300;
+}
+
+.i-name {
+	font-size: 60px;
+}
+
+.i-title {
+	height: 50px;
+	overflow: hidden;
+}
+
+.i-title-wrapper{
+	height: 100%;
+	animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+	25%{
+		transform: translateY(-50px);
+	}
+	50%{
+		transform: translateY(-100px);
+	}
+	75%{
+		transform: translateY(-50px);
+	}
+}
+
+.i-title-item {
+	height: 50px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #7e57c2;
+	display: flex;
+	align-items: center;
+}
+
+.i-scroll {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	bottom: 20px;
+}
+
+.i-img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	position: absolute;
+}
+
+.i-img-inner {
+	visibility: hidden;
+}
+
+.i-bg {
+	clip-path: polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+	background-color: #d1c4e9;
+	width: 100%;
+	height: 100%;
+	position: absolute; /*parent "i-right" should be relative*/
+}
+
+
+@media screen and (max-width:  480px) {
+	.i {
+		flex-direction: column;
+	}
+
+	.i-left-wrapper {
+		padding: 10px;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+		height: 100%;
+	}
+
+	.i-title{
+		margin-top: 20px;
+	}
+
+	.i-desc {
+		display: none;
+	}
+
+	.i-intro {
+		font-size: 30px;
+		font-weight: 300;
+	}
+
+	.i-name {
+		font-size: 50px;
+	}
+
+	.i-bg {
+		/*clip-path: polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);*/
+		clip-path: none;
+		/*background-color: #d1c4e9;*/
+		background-color: transparent;
+		width: 100%;
+		height: 100%;
+		border-radius: 50%;
+		position: absolute; /*parent "i-right" should be relative*/
+		overflow: hidden;
+		visibility: visible;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		/*border: 1px solid red;*/
+	}
+
+	.i-title-item {
+		height: 50px;
+		font-size: 25px;
+		font-weight: bold;
+		color: #7e57c2;
+		display: flex;
+		align-items: center;
+	}
+
+	.i-img {
+		visibility: hidden;
+	}
+
+	.i-img-inner {
+		visibility: visible;
+		position: absolute;
+		width: 30vh;
+		height: 50vh;
+		margin-bottom: 170px;
+	}	
+
+/*	.i-right {
+		margin-bottom: 100px;
+		border: 1px solid red;
+	}*/
+
+
+}
