@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { ThemeContext } from "../../context.js";
 import "./casestudy.css";
+import survey from "../../img/survey.png";
 
 const casestudy = () => {
 	  	// const theme = useContext(ThemeContext);
@@ -141,33 +142,19 @@ const casestudy = () => {
 					<div className="cs1-header"><h1>User Testing</h1></div>
 					<div className="cs1-body">
 							<p>
-							Sliike's growth was stagnant over a period of time. To reach new clients and customers,
-							some challenges that hindered it's growth needed to be addressed.
+							I conducted user tests/survey with 8 persons outside Sliike so that the responses will
+							be more accurate. This is what the survey looks like.
 							</p>
 							<br/>
-							<h3>The old landing page was not looking attractive.</h3>
+							<div>
+								<img class = "cs1-body-image" src={survey} alt="A screenshot of the survey results"/>
+							</div>
 							<p>
 							<br/>
-							Sliike's growth was stagnant over a period of time. To reach new clients and customers,
-							some challenges that hindered it's growth needed to be addressed.
+							I continued to iterate the designs to ensure that Sliike's unique value propositions are 
+							clearly communicated.
 							</p><br/>
-							<h3>Attract it's target demographic.</h3>
-							<p>
-							<br/>
-							The website needed to capture the attention of the black community in Canada. We wish to 
-							have about 90% blacks as customers and clients.
-							</p><br/>
-							<h3>Appealing user dashboard.</h3>
-							<p>
-							<br/>
-							While the overall website needed a facelift, customers and clients needed to have a good
-							user experience in the course of business transactions.
-							</p><br/>
-							<h3>Promote Sliike's mobile app.</h3>
-							<p>
-							<br/>
-							The app was one of Sliike's selling point. The website needed to drive up Sliike's app downloads.
-							</p><br/>
+							
 					</div>
 					<div className="cs1-header"><h1>Final Designs</h1></div>
 					<div className="cs1-body">
