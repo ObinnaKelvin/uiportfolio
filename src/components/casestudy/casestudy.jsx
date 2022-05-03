@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { ThemeContext } from "../../context.js";
 import "./casestudy.css";
 import survey from "../../img/survey.png";
+import sketches from "../../img/sketches.png";
 
 const casestudy = () => {
 	  	// const theme = useContext(ThemeContext);
@@ -111,33 +112,59 @@ const casestudy = () => {
 					<div className="cs1-header"><h1>Early Ideation</h1></div>
 					<div className="cs1-body">
 							<p>
-							Sliike's growth was stagnant over a period of time. To reach new clients and customers,
-							some challenges that hindered it's growth needed to be addressed.
+							To make sure that the designs were professional and standard, I outlined 4 key design principles 
+							I worked with. The design principles used are as follows:
+
+							{/*I kicked off the design sprint by */}
 							</p>
 							<br/>
-							<h3>The old landing page was not looking attractive.</h3>
+							<h3>4 Key Design Principles</h3>
 							<p>
 							<br/>
-							Sliike's growth was stagnant over a period of time. To reach new clients and customers,
-							some challenges that hindered it's growth needed to be addressed.
-							</p><br/>
-							<h3>Attract it's target demographic.</h3>
+							<h4 className="sub">Place users in control of the interface.</h4>
+							Good UIs instill a sense of control in their users. Keeping users in control makes 
+							them comfortable; they will learn quickly and gain a fast sense of mastery.
+							Navigation should always be clear and self-evident. Users should be able to enjoy 
+							exploring the interface of any software product. Even complex B2B products full of 
+							features shouldn’t intimidate users so that they are afraid to press a button. 
+							</p>
 							<p>
 							<br/>
-							The website needed to capture the attention of the black community in Canada. We wish to 
-							have about 90% blacks as customers and clients.
-							</p><br/>
-							<h3>Appealing user dashboard.</h3>
+							<h4 className="sub">Make it comfortable for a user to interact with a product.</h4>
+							Interfaces shouldn’t contain information that is irrelevant or rarely needed. Irrelevant 
+							information introduces noise in UI —it competes with the relevant information and diminishes 
+							its relative visibility. Simplify interfaces by removing unnecessary elements or content that 
+							does not directly support user tasks. Strive to design UI in a way that all information presented 
+							on the screen will be valuable and relevant. Examine every element and evaluate it based on the 
+							value it delivers to users.
+							</p>
 							<p>
 							<br/>
-							While the overall website needed a facelift, customers and clients needed to have a good
-							user experience in the course of business transactions.
-							</p><br/>
-							<h3>Promote Sliike's mobile app.</h3>
+							<h4 className="sub">Reduce cognitive load.</h4>
+							Cognitive load is the amount of mental processing power required to use a product.
+							It's better to avoid making users think/work too hard to use your product. One of the
+							ways to achieve this is to reduce the number of actions required to complete a task.
+							</p>
 							<p>
 							<br/>
-							The app was one of Sliike's selling point. The website needed to drive up Sliike's app downloads.
+							<h4 className="sub">Make user interfaces consistent.</h4>
+							Consistency is an essential property of good UI—consistent design is intuitive design. 
+							Consistency is one of the strongest contributors to usability and learnability. The main 
+							idea of consistency is the idea of transferable knowledge — let users transfer their knowledge 
+							and skills from one part of an app’s UI to another, and from one app to another app.
 							</p><br/>
+							<br/>
+							<h3>MockUps</h3>
+							<p>
+							<br/>
+							Next, I started sketching up design ideas as the inspiration were flowing in. At this stage the focus
+							was to get as much ideas as possible and then streamline them to meet goal of this project.
+							</p>
+							<br/>
+							<div>
+								<img class = "cs1-body-image" src={sketches} alt="An image of early ideation sketches"/>
+							</div>
+
 					</div>
 					<div className="cs1-header"><h1>User Testing</h1></div>
 					<div className="cs1-body">
@@ -158,10 +185,10 @@ const casestudy = () => {
 					</div>
 					<div className="cs1-header"><h1>Final Designs</h1></div>
 					<div className="cs1-body">
-							<h3>Before and After</h3>
+							{/*<h3>Before and After</h3>*/}
 							<p>
-							Sliike's growth was stagnant over a period of time. To reach new clients and customers,
-							some challenges that hindered it's growth needed to be addressed.
+							Before the redesign, there was lack of focus as to what Sliike offers and it's target audience.
+							The website didn't look professional. Below is a walkthrough of what the new website looks like.
 							</p>
 							<br/>
 							<h3>The old landing page was not looking attractive.</h3>
