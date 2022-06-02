@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import { ThemeContext } from "../../context.js";
 import "./casestudy.css";
 import survey from "../../img/survey.png";
@@ -12,18 +12,21 @@ import hero from "../../img/hero.png";
 import bulb from "../../img/lightbulb.png";
 import userdb from "../../img/user-dashboard.png";
 import signup from "../../img/signup.png";
+import Modal from "../modal/Modal.jsx";
 
 
-const casestudy = () => {
+const Casestudy = () => {
 	  	// const theme = useContext(ThemeContext);
   		// const darkMode = theme.state.darkMode;
+  		const [openModal, setOpenModal] = useState(false);
 	return (
 		//<div style={{backgroundColor: darkMode ? "#222" : "white", color: darkMode && "white"}}>
 			<div className="cs">
 				<div className="cs1">
 					<div className="hero">
 						<div className="hero-image">
-							<img class = "cs1-hero-image" src={hero} alt="A screenshot of the Sliike's Hero"/>
+							<img class = "cs1-hero-image" src={hero} alt="A screenshot of Sliike's Hero section" onClick={() => setOpenModal(true)} />
+							<Modal open={openModal} onClose={()=>setOpenModal(false)} image={hero} alt="A screenshot of Sliike's Hero section"/>
 						</div><br/>
 						<div className="hero-caption"><h1>Revamping Sliike's landing page and user dashboards</h1></div>
 						<div className="hero-details">
@@ -356,4 +359,4 @@ const casestudy = () => {
 	)
 }
 
-export default casestudy
+export default Casestudy

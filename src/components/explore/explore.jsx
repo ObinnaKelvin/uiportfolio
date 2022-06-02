@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { ThemeContext } from "../../context.js";
 import "./explore.css";
 
-const explore = () => {
+const Explore = () => {
 		// const theme = useContext(ThemeContext);
   // 		const darkMode = theme.state.darkMode;
 	return (
@@ -13,4 +13,4 @@ const explore = () => {
 	)
 }
 
-export default explore
+export default Explore
