@@ -109,3 +109,61 @@
 .cs1-hero-image {
 	width:  100%;
 }
+
+
+@media screen and (max-width:  500px) {
+
+	.cs {
+		margin-top: 20px;
+	}
+	.cs1-hero-image {
+		width: 300px;
+		margin-top: 0px;
+	}
+
+	.hero-caption {
+		font-size: 8px;
+	}
+
+	.hero-details {
+		font-size: 10px;
+		display: flex;
+		flex-direction: row;
+		padding: 30px 10px 30px 10px;
+		/*color: blue;*/
+		/*width: 600px;*/
+		width: 100%;
+		justify-content: space-between;
+		text-align: center;
+		/*border: 1px solid red;*/
+		border-top: 1px solid #bdbdbd;
+		border-bottom: 1px solid #bdbdbd;
+		margin: 50px 0px 50px 0px;
+	}
+
+	.cs1-header {
+		font-size: 8px;
+		margin: 15px 0px 15px 0px;
+		padding: 0px 10px 0px 10px;
+	}
+
+	.cs1-body {
+		font-size: 10px;
+		padding: 0px 10px 0px 10px;
+	}
+
+	.cs1-emphasis {
+		width: 240px;
+		/*border-radius: 10px;*/
+		padding: 30px 10px 30px 10px;
+	}
+
+	.cs1-emphasis-sub {
+		font-size: 12px;
+		padding: 20px;
+	}
+	.sub-details {
+		font-size: 10px;
+	}
+
+}

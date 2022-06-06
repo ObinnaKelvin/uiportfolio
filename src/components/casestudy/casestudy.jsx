@@ -190,7 +190,8 @@ const Casestudy = () => {
 							</p>
 							<br/>
 							<div>
-								<img class = "cs1-body-image" src={sketches} alt="An image of early ideation sketches"/>
+								<img class = "cs1-body-image" src={sketches} alt="A screenshot of early ideation sketches"  onClick={() => setOpenModal(true)}/>
+								<Modal open={openModal} onClose={()=>setOpenModal(false)} image={sketches} alt="A screenshot of early ideation sketches"/>
 							</div>
 							<p>
 							<br/>
@@ -198,7 +199,8 @@ const Casestudy = () => {
 							as I continued refining the designs.
 							</p>
 							<div>
-								<img class = "cs1-body-image" src={hfd} alt="4 versions of Hero section"/>
+								<img class = "cs1-body-image" src={hfd} alt="Four versions of Hero section" onClick={() => setOpenModal(true)}/>
+								{/*<Modal open={openModal} onClose={()=>setOpenModal(false)} image={hfd} alt="Four versions of Hero section"/>*/}
 							</div>							
 
 					</div>

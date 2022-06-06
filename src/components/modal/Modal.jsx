@@ -5,8 +5,8 @@ const Modal = ({open, onClose, image, alt}) => {
 
 	if (!open) return null;
 	return (
-		<div className='overlay'>
-			<div className='modalContainer'>
+		<div onClick={onClose} className='overlay'>
+			<div onClick={(e) => {e.stopPropagation()}} className='modalContainer'>
 				<div>
 					<img className="modalImage" src={image} alt={alt}/>
 					<div className="modalContent">{alt}</div>	
