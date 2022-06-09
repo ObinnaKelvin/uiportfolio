@@ -1,0 +1,34 @@
+.exp {
+	display: flex;
+	flex-direction: column;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	align-items: center;
+	/*border: 1px solid red;*/
+}
+
+.exp-image {
+	width: 100%;
+}
+
+.exp-caption {
+	margin-top: 50px;
+	color: #7e57c2;
+}
+
+
+@media screen and (max-width:  500px) {
+
+	.exp {
+		width: 300px;
+	}
+	.exp-image {
+		width: 100%;
+	}
+
+	.exp-caption {
+		font-size: 15px;
+	}
+}
