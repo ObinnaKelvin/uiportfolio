@@ -1,0 +1,470 @@
+.izik {
+	display: flex;
+	flex-direction: column;
+	/*height: 100vh;*/
+	/*border:  1px solid yellowgreen;*/
+	/*align-items: center;*/
+	/*background-color: #7e57c2;*/
+	padding-top: 50px;
+	
+}
+
+.izik-body-hero {
+	display: flex;
+	flex-direction: row;
+	margin: 0px 0px 0px 0px;
+}
+
+.izik-body-item {
+	display: flex;
+	flex-direction: row;
+}
+
+.izik-body-hero-left {
+	flex: 1;
+	padding: 50px;
+	flex-direction: column;
+	/*align-items: center;*/
+}
+
+.izik-body-hero-left {
+	flex: 1;
+	display: flex;
+	padding: 50px;
+	/*border: 2px solid red;*/
+}
+
+.izik-body-hero-right {
+	flex: 1;
+	display: flex;
+	padding: 50px;
+	/*border: 2px solid red;*/
+}
+
+.izik-body-hero-image {
+	width: 100%;
+	height: 400px;
+	background-color: #ffffff;
+	/*background-color: #757575;*/
+	/*filter: blur(100px);*/
+	align-items: center;
+	/*border: 2px solid red;*/
+	border-radius: 20px;
+}
+
+.izik-body-hero-image-image {
+	width: 550px;
+	/*width: 100%;*/
+	height: 400px;
+	object-fit: cover;
+	/*object-fit: contain;*/
+	border-radius: 20px;
+}
+
+.izik-body-timeline {
+	padding: 100px;
+	margin: 0px 0px 70px 0px;
+}
+
+.izik-timeline-details {
+	display: flex;
+	flex-direction: row;
+	padding: 30px 0px 30px 0px;
+	/*color: blue;*/
+	/*width: 600px;*/
+	width: 100%;
+	justify-content: space-between;
+	text-align: center;
+	/*border: 1px solid red;*/
+	border-top: 1px solid #bdbdbd;
+	border-bottom: 1px solid #bdbdbd;
+	margin: 100px 0px 100px 0px;
+}
+
+.izik-timeline-detail-header {
+	color: #9e9e9e;
+}
+
+.izik-timeline-detail-detail {
+	color: #424242;
+}
+
+
+.izik-body-problem {
+	padding: 100px;
+	font-size: 20px;
+	font-weight: 200;
+}
+
+
+.izik-body-problem-highlights {
+	padding: 10px;
+	/*background-color: #9575cd ;*/
+	/*background-color: #7e57c2;*/
+	border-radius: 15px;
+	display: inline-block; /*This makes the div width to match the size of the content*/
+	color: black;
+}
+
+.izik-body-problem-highlights-icon {
+	width: 25px;
+	height: 25px;
+	/*position: absolute;*/
+	/*bottom: 20px;*/
+	/*border: 2px solid red;*/
+	fill: black;
+	z-index: 1;
+	margin-right: 10px;
+}
+
+.izik-body-problem-highlights-sizing {
+	font-size: 20px;
+	font-weight: 500;
+	display: flex;
+	justify-content: space-between;
+	margin-left: -15px;
+}
+
+
+.izik-body-problem-information {
+	display: flex;
+}
+
+.izik-body-problem-text {
+	width: 70%;
+}
+
+.izik-body-problem-image {
+	width: 30%;
+}
+
+.izik-body-problem-image-image {
+	width: 100%;
+	height: 200px;
+	/*object-fit: cover;*/
+	object-fit: contain;
+	/*border-radius: 20px;*/
+}
+
+
+.proj-body-item-tag-holder {
+	display: flex;
+	margin-top: 20px;
+}
+
+
+.izik-body-solution {
+	padding: 100px;
+	/*height: 100vh;*/
+	background-color: #01579b;
+	color: white;
+	font-size: 20px;
+	font-weight: 200;
+}
+
+.izik-body-solution-highlights-sizing {
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	display: flex;
+	justify-content: space-between;
+	margin-left: -15px;
+}
+
+.izik-body-solution-highlights {
+	padding: 10px;
+	/*background-color: #9575cd ;*/
+	/*background-color: #7e57c2;*/
+	border-radius: 15px;
+	display: inline-block; /*This makes the div width to match the size of the content*/
+	color: black;
+}
+
+.izik-body-solution-highlights-icon {
+	width: 25px;
+	height: 25px;
+	/*position: absolute;*/
+	/*bottom: 20px;*/
+	/*border: 2px solid red;*/
+	fill: black;
+	z-index: 1;
+	margin-right: 10px;
+}
+
+.izik-body-solution-information {
+	display: flex;
+}
+
+.izik-body-solution-text {
+	width: 70%;
+}
+
+.izik-body-solution-image {
+	width: 30%;
+}
+
+.izik-body-solution-image-image {
+	width: 100%;
+	height: 200px;
+	/*object-fit: cover;*/
+	object-fit: contain;
+	/*border-radius: 20px;*/
+}
+
+
+
+.izik-body-process {
+	padding: 100px;
+	/*height: 100vh;*/
+	/*background-color: #01579b;*/
+	/*color: white;*/
+	font-size: 20px;
+	font-weight: 200;
+}
+
+.izik-body-process-highlights-sizing {
+	font-size: 20px;
+	font-weight: 500;
+	display: flex;
+	justify-content: space-between;
+	margin-left: -15px;
+}
+
+.izik-body-process-highlights {
+	padding: 10px;
+	border-radius: 15px;
+	display: inline-block; /*This makes the div width to match the size of the content*/
+	color: black;
+}
+
+.izik-body-process-highlights-icon {
+	width: 25px;
+	height: 25px;
+	/*position: absolute;*/
+	/*bottom: 20px;*/
+	/*border: 2px solid red;*/
+	fill: black;
+	z-index: 1;
+	margin-right: 10px;
+}
+
+
+.izik-body-process-information {
+	display: flex;
+}
+
+.izik-body-process-text {
+	width: 100%;
+}
+
+/*.izik-body-process-image {
+	width: 30%;
+}*/
+
+.izik-body-process-image-image {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	/*object-fit: contain;*/
+	/*border-radius: 20px;*/
+}
+
+.izik-body-process-text-boxes {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.izik-body-process-text-box {
+	margin-top: 50px;
+	height: 250px;
+	width: 300px;
+	padding: 40px 10px 10px 10px;
+	border-radius: 20px;
+	text-align: center;
+	box-shadow: 0 1px 2px rgb(0 0 0 / 7%), 
+	0 2px 4px rgb(0 0 0 / 7%), 
+	0 4px 8px rgb(0 0 0 / 7%), 
+	0 8px 16px rgb(0 0 0 / 7%), 
+	0 16px 32px rgb(0 0 0 / 7%), 
+	0 32px 64px rgb(0 0 0 / 7%);
+}
+
+
+
+.izik-body-research {
+	padding: 100px;
+	/*height: 100vh;*/
+	/*background-color: #01579b;*/
+	/*color: white;*/
+	font-size: 20px;
+	font-weight: 200;
+}
+
+.izik-body-research-highlights-sizing {
+	font-size: 20px;
+	font-weight: 500;
+	display: flex;
+	justify-content: space-between;
+	margin-left: -15px;
+}
+
+.izik-body-research-highlights {
+	padding: 10px;
+	border-radius: 15px;
+	display: inline-block; /*This makes the div width to match the size of the content*/
+	color: black;
+}
+
+.izik-body-research-highlights-icon {
+	width: 25px;
+	height: 25px;
+	/*position: absolute;*/
+	/*bottom: 20px;*/
+	/*border: 2px solid red;*/
+	fill: black;
+	z-index: 1;
+	margin-right: 10px;
+}
+
+
+.izik-body-research-information {
+	display: flex;
+}
+
+.izik-body-research-text {
+	width: 100%;
+}
+
+.izik-body-research-text-boxes {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.izik-body-research-text-box {
+	margin-top: 50px;
+	height: 150px;
+	width: 150px;
+	padding: 40px 10px 10px 10px;
+	border-radius: 20px;
+	text-align: center;
+	box-shadow: 0 1px 2px rgb(0 0 0 / 7%), 
+	0 2px 4px rgb(0 0 0 / 7%), 
+	0 4px 8px rgb(0 0 0 / 7%), 
+	0 8px 16px rgb(0 0 0 / 7%), 
+	0 16px 32px rgb(0 0 0 / 7%), 
+	0 32px 64px rgb(0 0 0 / 7%);
+}
+
+
+
+.izik-body-outcome {
+	padding: 100px;
+	/*height: 100vh;*/
+	/*background-color: #01579b;*/
+	/*color: white;*/
+	font-size: 20px;
+	font-weight: 200;
+}
+
+.izik-body-outcome-highlights-sizing {
+	font-size: 20px;
+	font-weight: 500;
+	display: flex;
+	justify-content: space-between;
+	margin-left: -15px;
+}
+
+.izik-body-outcome-highlights {
+	padding: 10px;
+	border-radius: 15px;
+	display: inline-block; /*This makes the div width to match the size of the content*/
+	color: black;
+}
+
+.izik-body-outcome-highlights-icon {
+	width: 25px;
+	height: 25px;
+	/*position: absolute;*/
+	/*bottom: 20px;*/
+	/*border: 2px solid red;*/
+	fill: black;
+	z-index: 1;
+	margin-right: 10px;
+}
+
+
+.izik-body-outcome-information {
+	display: flex;
+}
+
+.izik-body-outcome-text {
+	width: 100%;
+}
+
+.izik-body-outcome-text-boxes {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.izik-body-outcome-text-box {
+	margin-top: 50px;
+	height: 150px;
+	width: 150px;
+	padding: 10px;
+	border-radius: 20px;
+	text-align: center;
+	box-shadow: 0 1px 2px rgb(0 0 0 / 7%), 0 2px 4px rgb(0 0 0 / 7%), 0 4px 8px rgb(0 0 0 / 7%), 0 8px 16px rgb(0 0 0 / 7%), 0 16px 32px rgb(0 0 0 / 7%), 0 32px 64px rgb(0 0 0 / 7%);
+}
+
+
+
+.izik-body-footer-nav {
+	padding: 100px;
+	/*height: 100vh;*/
+	/*background-color: #01579b;*/
+	/*color: white;*/
+	font-size: 20px;
+	font-weight: 200;	
+	display: flex;
+	flex-direction: row;
+}
+
+
+.izik-body-footer-nav-left {
+	width: 50%;
+	text-align: left;
+}
+
+.izik-body-footer-nav-right {
+	width: 50%;
+	text-align: right;
+}
+
+.izik-body-footer-nav-right-text {
+	color: orange;
+	font-weight: 500;
+}
+
+.izik-body-footer-nav-right-text-sub {
+	font-size: 15px;
+	font-weight: 500;
+	text-decoration: none;
+	color: #000000;
+}
+
+
+.line {
+	width: 6%;
+	border: 1px solid #f48fb1;
+	border-radius: 5px;
+}
+
+.line2 {
+	width: 100%;
+	border: 0.5px solid #000000;
+	border-radius: 5px;
+}
+

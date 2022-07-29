@@ -1,5 +1,5 @@
 import "./intro.css"
-import Me1 from "../../img/pic3.png"
+import Me1 from "../../img/devbg.png"
 
 
 const Intro = () => {
@@ -81,7 +81,8 @@ const Intro = () => {
 		        </svg>
 			</div>
 			<div className="i-right">
-				<div className="i-bg"><img src={Me1} alt="" className="i-img-inner"/></div>
+				{/*<div className="i-bg"><img src={Me1} alt="" className="i-img-inner"/></div>*/}
+				{/*<div className="i-bg"></div>*/}
 				<img src={Me1} alt="" className="i-img"/>
 			</div>
 		</div>

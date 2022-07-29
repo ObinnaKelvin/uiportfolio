@@ -4,8 +4,8 @@
 	margin-top: 100px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 800px;
-	align-items: center;
+	width: 100%;
+	/*align-items: center;*/
 	/*border: 1px solid red;*/
 }
 
@@ -16,6 +16,61 @@
 .exp-caption {
 	margin-top: 50px;
 	color: #7e57c2;
+}
+
+.exp-body-design {
+	padding: 100px 50px 100px 50px;
+}
+
+.exp-body-design-highlights {
+	background-color: #311b92;
+	/*height: 30px;*/
+	color: white;
+	display: flex;
+	flex-direction: row;
+	padding: 7px;
+	/*height: 27px;*/
+	
+}
+
+.exp-body-design-highlights-sizing {
+
+}
+
+.exp-body-design-highlights-icon {
+	height: 25px;
+	width: 25px;
+	margin-right: 10px;
+}
+
+.exp-body-design-highlights-text {
+	/*margin-bottom: 350px;*/
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.exp-body-development {
+	padding: 100px 50px 100px 50px;
+}
+
+.exp-body-development-highlights {
+	background-color: #311b92;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+}
+
+.exp-body-development-highlights-icon {
+	height: 25px;
+	width: 25px;
+	margin-right: 10px;
+}
+
+.exp-body-development-highlights-text {
+	/*margin-bottom: 350px;*/
+	font-size: 20px;
+	font-weight: 300;
 }
 
 

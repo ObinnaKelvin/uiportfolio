@@ -149,7 +149,8 @@
 	}
 
 	.i-img {
-		visibility: hidden;
+		/*visibility: hidden;*/
+		margin-top: -80px;
 	}
 
 	.i-img-inner {

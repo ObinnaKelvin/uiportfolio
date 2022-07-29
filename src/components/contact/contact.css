@@ -2,7 +2,7 @@
 	height: 100vh;
 	position: relative;
 	overflow: hidden;
-	border: 1px solid blueviolet;  /*For Troubleshooting*/
+	/*border: 1px solid blueviolet;*/  /*For Troubleshooting*/
 }
 
 .c-bg {
