@@ -147,10 +147,6 @@
 	.proj-body-item-tags {
 		padding: 5px 15px 5px 15px;
 		display: inline-block;
-
-		/*To Be Continued*/
-		/*width: 500px;*/
-		/*height: 10px;*/
 		border-radius: 25px;
 		background-color: #fafafa;
 		color: #757575;
@@ -171,16 +167,6 @@
 		margin-left: auto; /*This centers the div*/
 		margin-right: auto; /*This centers the div*/
 	}
-
-
-	/*To Be Continued*/
-
-
-/*	.i-right {
-		margin-bottom: 100px;
-		border: 1px solid red;
-	}*/
-
 
 }
 

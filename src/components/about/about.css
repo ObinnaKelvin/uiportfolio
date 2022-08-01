@@ -70,6 +70,12 @@
 	margin: 50px;
 }
 
+.a-line {
+	width: 15%;
+	border: 1px solid #f48fb1;
+	border-radius: 5px;
+}
+
 .a-items {
 	width: 30px;
 	height: 30px;
@@ -124,7 +130,8 @@
 	border-radius: 25px;
 	/*background-color: #fafafa;*/
 	/*color: #757575;*/
-	background-color: black;
+	/*background-color: black;*/
+	background-color: #7e57c2;;
 	color: white;
 	font-size: 12px;
 	margin: 0px 10px 10px 0px;	
@@ -137,7 +144,7 @@
 		margin-top: 100px;
 	}
 
-	.a-left {
+	.a-desc-left {
 		width: 100%;
 		/*height: 100%;*/
 	}
@@ -150,11 +157,59 @@
 		overflow: hidden;
 	}
 
-	.a-card.bg {
+	.a-desc-card.bg {
 		display: none;
 	}
 
-	.a-right {
-
+	.a-desc-right {
+		margin-top: 50px;
+		/*padding-top: 50px;*/
 	}
+
+	.a-title {
+		font-size: 40px;
+	}
+
+
+	.a-desc {
+		display: flex;
+		flex-direction: column;
+		padding: 10px;
+	}
+
+	.a-desc-card {
+		width: 100%;
+		height: 70vh;
+		border-radius: 30px;
+		/*position: absolute;*/
+		/*position: relative;
+		overflow: hidden;*/
+	}
+
+	.a-tools {
+		display: flex;
+		justify-content: center;
+	}
+
+	.a-education-desc {
+		padding: 15px;
+		text-align: left;
+	}
+
+	.a-experience {
+		display: flex;
+		flex-direction: column;
+		padding: 15px;
+		text-align: left;
+	}
+
+	.a-experience-left {
+		margin-bottom: 50px;
+	}
+	.a-experience-desc-text1 {
+		font-size: 20px;
+		font-weight: 300;
+	}
+
+
 }

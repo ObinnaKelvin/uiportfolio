@@ -6,7 +6,7 @@ import pic5 from "../../img/pic5.jpg"
 const About = () => {
 	return (
 		<div className="a">
-		<h1 className="a-title">...A tale of a Lion-hearted Techie...</h1>
+		<h1 className="a-title">My Story</h1>
 			<div className="a-desc">
 				<div className="a-desc-left">
 					<div className="a-desc-card bg"></div>
@@ -87,27 +87,30 @@ const About = () => {
 
 			<div className="a-education">
 				<div className="a-education-desc">
-					<h1>Education</h1><br/>
+					<h1>Education</h1>
+					<hr className="a-line"/><br/>
 					<div className="a-education-desc-text1">
 						<p>Federal University of Technology, Owerri</p>
 					</div><br/>
-					<p  className="a-education-desc-text2">Bachelor of Science in Computer Science - November 2014</p>
+					<p  className="a-education-desc-text2"><em>Bachelor of Science in Computer Science - November 2014</em></p>
 				</div>
 			</div>
 
 			<div className="a-experience">
 				<div className="a-experience-left">
-					<h1>Experience</h1><br/>
+					<h1>Experience</h1>
+					<hr className="a-line"/><br/>
 					<p className="a-experience-desc-text1">Lagoon Hospitals</p>
 					<br/>
-					<p  className="a-experience-desc-text2">Business Data Reporting Analyst | January 2020 - Present</p>
+					<p  className="a-experience-desc-text2"><em>Business Data Reporting Analyst | January 2020 - Present</em></p>
 					<br/>
 					<p className="a-experience-desc-text1">Cornerstone Insurance PLC</p>
 					<br/>
-					<p  className="a-experience-desc-text2">Infrastructure Support & Web Content Manager | January 2017 - December 2020</p>
+					<p  className="a-experience-desc-text2"><em>Infrastructure Support & Web Content Manager | January 2017 - December 2020</em></p>
 				</div>
 				<div className="a-experience-right">
-					<h1>Skills</h1><br/>
+					<h1>Skills</h1>
+					<hr className="a-line"/><br/>
 					<p className="a-experience-desc-text1">General</p>
 						<div className="a-experience-item-tag-holder">
 							<div className="a-experience-item-tags">UI/UX</div>
