@@ -67,7 +67,7 @@ nav {
 @media screen and (max-width:  500px) {
   nav {
     font-size: 10px;
-    /*border: 1px solid red;*/
+   /* border: 1px solid red;*/
     height: 30px;
     padding: 10px 0px 0px 0px;
   }

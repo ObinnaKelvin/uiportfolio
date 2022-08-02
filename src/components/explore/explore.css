@@ -9,6 +9,11 @@
 	/*border: 1px solid red;*/
 }
 
+.exp-body-hero {
+	font-size: 60px;
+	text-align: center;
+}
+
 .exp-image {
 	width: 100%;
 }
@@ -77,13 +82,28 @@
 @media screen and (max-width:  500px) {
 
 	.exp {
-		width: 300px;
+		/*width: 500px;*/
+		width: 100%;
+		margin-top: 50px;
 	}
+
+	.exp-body-hero {
+		font-size: 30px;	
+	}
+
+	.exp-body-design {
+		padding: 50px 10px 50px 10px;
+	}
+
 	.exp-image {
 		width: 100%;
 	}
 
 	.exp-caption {
 		font-size: 15px;
+	}
+
+	.exp-body-development {
+		padding: 50px 10px 50px 10px;
 	}
 }

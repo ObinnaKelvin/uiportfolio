@@ -5,6 +5,7 @@ import construction from "../../img/construction.png"
 import design from "../../img/design.png"
 import development from "../../img/development.png"
 import ProductList from "../productList/ProductList.jsx";
+import Typical from 'react-typical'
 
 const Explore = () => {
 		// const theme = useContext(ThemeContext);
@@ -16,6 +17,11 @@ const Explore = () => {
 						{/*<p>
 							A peek into my creative world.
 						</p>*/}
+				      <Typical
+				        steps={['I', 1000, 'I Think...', 700, 'I Create...', 700, 'I Deliver.', 700]}
+				        loop={Infinity}
+				        wrapper="p"
+				      />
 				</div>
 
 				<div className="exp-body-design">
