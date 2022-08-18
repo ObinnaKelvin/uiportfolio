@@ -164,8 +164,9 @@
 		align-items: center;
 		justify-content: center;
 		margin-top: 20px;
-		margin-left: auto; /*This centers the div*/
-		margin-right: auto; /*This centers the div*/
+		/*margin-left: auto;*/ /*This centers the div*/
+		/*margin-right: auto;*/ /*This centers the div*/
+		width:  97%;
 	}
 
 }

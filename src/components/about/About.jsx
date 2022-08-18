@@ -6,7 +6,12 @@ import pic5 from "../../img/pic5.jpg"
 const About = () => {
 	return (
 		<div className="a">
-		<h1 className="a-title">My Story</h1>
+
+			<h1 className="a-title">My Story</h1>
+{/*			<div className="a-title">
+				<h1>My Story</h1>
+				<h1>My Story</h1>
+			</div>*/}
 			<div className="a-desc">
 				<div className="a-desc-left">
 					<div className="a-desc-card bg"></div>

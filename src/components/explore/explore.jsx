@@ -6,6 +6,8 @@ import design from "../../img/design.png"
 import development from "../../img/development.png"
 import ProductList from "../productList/ProductList.jsx";
 import Typical from 'react-typical'
+import CarouselGroupMobile from "../carousel/CarouselGroupMobile.jsx"
+import CarouselGroupDesktop from "../carousel/CarouselGroupDesktop.jsx"
 
 const Explore = () => {
 		// const theme = useContext(ThemeContext);
@@ -28,18 +30,39 @@ const Explore = () => {
 							<div className="exp-body-design-highlights">
 								<div className = "exp-body-design-highlights-sizing">
 									<img className = "exp-body-design-highlights-icon" src={design} alt="An image of bulb"/>	
-									<span className = "exp-body-design-highlights-text">Design</span>
+									<span className = "exp-body-design-highlights-text">Designs</span>
 								</div>
 							</div>
 							<div className="exp-body-design-information">
 									<div className="izik-body-design-boxes">
 										<div className="izik-body-design-box">
-										<ProductList />
+										{/*<ProductList />*/}
+										<CarouselGroupMobile />
+										<CarouselGroupDesktop />
 										</div>
 									</div>
 							</div>
 							
 				</div>
+
+{/*				<div className="exp-body-casestudy">
+							<div className="exp-body-casestudy-highlights">
+								<div class = "exp-body-casestudy-highlights-sizing">
+									<img class = "exp-body-casestudy-highlights-icon" src={development} alt="An image of bulb"/>	
+									<span className = "exp-body-casestudy-highlights-text">Case Study</span>
+								</div>
+							</div>
+							<div className="exp-body-casestudy-information">
+									<div className="exp-body-casestudy-boxes">
+										<div className="exp-body-casestudy-box">
+										</div>
+										<div className="exp-body-casestudy-box">
+										</div>
+										<div className="exp-body-casestudy-box">
+										</div>
+									</div>
+							</div>			
+				</div>*/}
 
 				<div className="exp-body-development">
 							<div className="exp-body-development-highlights">
@@ -49,10 +72,10 @@ const Explore = () => {
 								</div>
 							</div>
 							<div className="exp-body-development-information">
-									<div className="izik-body-development-boxes">
-										<div className="izik-body-development-box">
+									<div className="exp-body-development-boxes">
+										<div className="exp-body-development-box">
 										</div>
-										<div className="izik-body-development-box">
+										<div className="exp-body-development-box">
 										</div>
 										<div className="izik-body-development-box">
 										</div>

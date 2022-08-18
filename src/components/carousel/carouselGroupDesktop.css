@@ -1,0 +1,60 @@
+
+.text1 {
+	font-size: 4rem;
+}
+
+.cgd-item {
+	min-height: 40rem;
+	min-width: 29rem;
+	padding: 20px;
+	/*border: 1px solid indianred;*/
+}
+
+.cgd-item img {
+	width: 100%;
+	height: 100%;
+	/*border-radius: 2rem;*/
+	pointer-events: none;
+	object-fit: cover;
+}
+
+.cgd-inner-carousel {
+	display: flex;
+	/*background-color: lightblue;*/
+}
+
+.cgd-carousel {
+	cursor: grab;
+	overflow: hidden;
+	/*background-color: pink;*/
+}
+
+
+@media screen and (max-width:  500px) {
+
+	.cgd-item {
+		min-height: 25rem;
+		min-width: 18rem;
+		padding: 10px;
+		/*border: 1px solid indianred;*/
+	}
+
+	.cgd-item img {
+		width: 100%;
+		height: 100%;
+		/*border-radius: 2rem;*/
+		pointer-events: none;
+		object-fit: cover;
+	}
+
+	.cgd-inner-carousel {
+		display: flex;
+		/*background-color: lightblue;*/
+	}
+
+	.cgd-carousel {
+		cursor: grab;
+		overflow: hidden;
+		/*background-color: pink;*/
+	}
+}

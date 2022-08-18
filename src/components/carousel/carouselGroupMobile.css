@@ -1,0 +1,59 @@
+
+.text1 {
+	font-size: 4rem;
+}
+
+.cgm-item {
+	min-height: 40rem;
+	min-width: 21rem;
+	padding: 20px;
+	/*border: 1px solid indianred;*/
+}
+
+.cgm-item img {
+	width: 100%;
+	height: 100%;
+	border-radius: 2rem;
+	pointer-events: none;
+	object-fit: cover;
+}
+
+.cgm-inner-carousel {
+	display: flex;
+	/*background-color: lightblue;*/
+}
+
+.cgm-carousel {
+	cursor: grab;
+	overflow: hidden;
+	/*background-color: pink;*/
+}
+
+
+@media screen and (max-width:  500px) {
+	.cgm-item {
+		min-height: 28rem;
+		min-width: 14rem;
+		padding: 10px;
+		/*border: 1px solid indianred;*/
+	}
+
+	.cgm-item img {
+		width: 100%;
+		height: 100%;
+		border-radius: 2rem;
+		pointer-events: none;
+		object-fit: cover;
+	}
+
+	.cgm-inner-carousel {
+		display: flex;
+		/*background-color: lightblue;*/
+	}
+
+	.cgm-carousel {
+		cursor: grab;
+		overflow: hidden;
+		/*background-color: pink;*/
+	}
+}

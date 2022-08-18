@@ -54,6 +54,10 @@
 	font-weight: 300;
 }
 
+.exp-body-casestudy {
+	padding: 100px 50px 100px 50px;
+}
+
 .exp-body-development {
 	padding: 100px 50px 100px 50px;
 }
@@ -101,6 +105,10 @@
 
 	.exp-caption {
 		font-size: 15px;
+	}
+
+	.exp-body-casestudy {
+		padding: 50px 10px 50px 10px;
 	}
 
 	.exp-body-development {
