@@ -1,8 +1,13 @@
 import React, { useContext } from 'react';
+import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 import { ThemeContext } from "../../context.js";
 import "./explore.css";
 import construction from "../../img/construction.png"
 import design from "../../img/design.png"
+import covid from "../../img/covid.png"
+import kelbox from "../../img/kelbox.png"
+import risk from "../../img/riskreporter.png"
+import easymarket from "../../img/easymarketcover.png"
 import development from "../../img/development.png"
 import ProductList from "../productList/ProductList.jsx";
 import Typical from 'react-typical'
@@ -74,10 +79,55 @@ const Explore = () => {
 							<div className="exp-body-development-information">
 									<div className="exp-body-development-boxes">
 										<div className="exp-body-development-box">
+											<div className="exp-body-development-box-header">COVID-19 Tracker</div>
+											<div className="exp-body-development-box-image">
+												<img className = "exp-body-development-box-image-image" src={covid} alt="Covid tracker dashboard"/>
+											</div>
+											<div className="exp-body-development-box-description">
+												This app shows the world statistics of Corona Virus cases (deaths, recovered, new).
+											</div>
+											<a href="https://covid19-update.vercel.app/" className="exp-body-development-box-button-text" target="_blank" rel="noreferrer">
+												<div className="exp-body-development-box-button">View</div>
+											</a>	
 										</div>
 										<div className="exp-body-development-box">
+											<div className="exp-body-development-box-header">Kelbox</div>
+											<div className="exp-body-development-box-image">
+												<img className = "exp-body-development-box-image-image" src={kelbox} alt="Kelbox dashboard"/>
+											</div>
+											<div className="exp-body-development-box-description">
+												An inventory management system that allows tracking goods across a business supply chain. 
+												It optimizes the entire spectrum spanning from order placement to order delivery, mapping 
+												the complete journey of a product.
+											</div>
+											<a href="https://kelbox.vercel.app/" className="exp-body-development-box-button-text" target="_blank" rel="noreferrer">
+												<div className="exp-body-development-box-button">View</div>
+											</a>											
 										</div>
-										<div className="izik-body-development-box">
+										<div className="exp-body-development-box">
+											<div className="exp-body-development-box-header">Easy Market</div>
+											<div className="exp-body-development-box-image">
+												<img className = "exp-body-development-box-image-image" src={easymarket} alt="EasyMarket landing"/>
+											</div>
+											<div className="exp-body-development-box-description">
+												This is Easy Market's landing page. It was Built using React JS.
+											</div>
+											<a href="https://easymarket.now.sh/" className="exp-body-development-box-button-text" target="_blank" rel="noreferrer">
+												<div className="exp-body-development-box-button">View</div>
+											</a>
+										</div>
+										<div className="exp-body-development-box">
+											<div className="exp-body-development-box-header">Risk Reporter</div>
+											<div className="exp-body-development-box-image">
+												<img className = "exp-body-development-box-image-image" src={risk} alt="Riskreporter dashboard"/>
+											</div>
+											<div className="exp-body-development-box-description">
+												Risk Reporter is an app used to report incidences that may pose a risk in a working environment. 
+												It was built using MongoDB, Express JS, React JS, Node JS.
+											</div>
+											<a href="https://risk-reporter.herokuapp.com/" className="exp-body-development-box-button-text" target="_blank" rel="noreferrer">
+												<div className="exp-body-development-box-button">View</div>
+											</a>
 										</div>
 									</div>
 							</div>			
