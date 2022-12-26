@@ -13,6 +13,7 @@ import ProductList from "../productList/ProductList.jsx";
 import Typical from 'react-typical'
 import CarouselGroupMobile from "../carousel/CarouselGroupMobile.jsx"
 import CarouselGroupDesktop from "../carousel/CarouselGroupDesktop.jsx"
+import craave from '../../img/Craave1.PNG'
 
 const Explore = () => {
 		// const theme = useContext(ThemeContext);
@@ -78,6 +79,18 @@ const Explore = () => {
 							</div>
 							<div className="exp-body-development-information">
 									<div className="exp-body-development-boxes">
+									<div className="exp-body-development-box">
+											<div className="exp-body-development-box-header">Craave</div>
+											<div className="exp-body-development-box-image">
+												<img className = "exp-body-development-box-image-image" src={craave} alt="Craave - A Modern hotel booking application"/>
+											</div>
+											<div className="exp-body-development-box-description">
+												A Modern hotel booking application.
+											</div>
+											<a href="https://craave.vercel.app/" className="exp-body-development-box-button-text" target="_blank" rel="noreferrer">
+												<div className="exp-body-development-box-button">View</div>
+											</a>	
+										</div>
 										<div className="exp-body-development-box">
 											<div className="exp-body-development-box-header">COVID-19 Tracker</div>
 											<div className="exp-body-development-box-image">

@@ -1,10 +1,11 @@
 import React from 'react'
-import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import "./projects.css";
 import viraCover from "../../img/ViraArt.png"
 import meezoCover from "../../img/MeezoArt.png"
 import sliike from "../../img/hero.png"
 import izikjonCover from "../../img/IzikjonArt1.png"
+import Craave from "../../img/Craave1.PNG"
 
 function Projects() {
 	return (
@@ -14,6 +15,31 @@ function Projects() {
 				<div className="proj-header-text">FEATURED PROJECTS</div>
 			{/*</div>*/}
 			<div className="proj-body">
+			<div className="proj-body-item">
+					<div className="proj-body-item-left">
+						<h2>Craave</h2>
+						<hr className="line"/>
+						<br/>
+						<p>
+						A modern hotel booking application showcasing available hotels across the world.
+						</p>
+						<div className="proj-body-item-tag-holder">
+							<div className="proj-body-item-tags">React js</div>
+							<div className="proj-body-item-tags">REST API</div>
+							<div className="proj-body-item-tags">Mongo DB</div>
+							<div className="proj-body-item-tags">Node Js</div>
+							<div className="proj-body-item-tags">ContextAPI</div>
+						</div>
+						<div className="proj-body-item-tag-link">
+							<Link to="/explore" className="proj-body-item-tag-link-text">View Project</Link>
+						</div>
+					</div>
+					<div className="proj-body-item-right">
+						<div className="proj-body-item-image">
+							<img className="proj-body-item-image-image" loading="lazy" src={Craave} alt="Craave"/>
+						</div>
+					</div>
+				</div>
 				<div className="proj-body-item">
 					<div className="proj-body-item-left">
 						<h2>Vira</h2>
@@ -33,7 +59,7 @@ function Projects() {
 					</div>
 					<div className="proj-body-item-right">
 						<div className="proj-body-item-image">
-							<img className="proj-body-item-image-image" src={viraCover}/>
+							<img className="proj-body-item-image-image" loading="lazy" src={viraCover} alt="Vira"/>
 						</div>
 					</div>
 				</div>
@@ -57,7 +83,7 @@ function Projects() {
 					</div>
 					<div className="proj-body-item-right">
 						<div className="proj-body-item-image">
-							<img className="proj-body-item-image-image" src={sliike}/>
+							<img className="proj-body-item-image-image" src={sliike} alt="Sliike"/>
 						</div>
 					</div>
 				</div>
@@ -80,7 +106,7 @@ function Projects() {
 					</div>
 					<div className="proj-body-item-right">
 						<div className="proj-body-item-image">
-							<img className="proj-body-item-image-image" src={izikjonCover}/>
+							<img className="proj-body-item-image-image" src={izikjonCover} alt="Izikjon"/>
 						</div>
 					</div>
 				</div>
@@ -103,7 +129,7 @@ function Projects() {
 					</div>
 					<div className="proj-body-item-right">
 						<div className="proj-body-item-image">
-							<img className="proj-body-item-image-image" src={meezoCover}/>
+							<img className="proj-body-item-image-image" src={meezoCover}  alt="Meezo"/>
 						</div>
 					</div>
 				</div>
