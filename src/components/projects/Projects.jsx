@@ -134,7 +134,7 @@ function Projects() {
 						</div>
 					</div>
 				</div>
-				<div className="proj-body-item">
+				<div className="proj-body-item-last">
 					<div className="proj-body-item-tag-link-view-all">
 						{/* <button> */}
 							<Link to="/explore" className="proj-body-item-tag-link-text-view-all">View All Projects</Link>
