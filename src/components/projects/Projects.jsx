@@ -31,7 +31,8 @@ function Projects() {
 							<div className="proj-body-item-tags">ContextAPI</div>
 						</div>
 						<div className="proj-body-item-tag-link">
-							<Link to="/explore" className="proj-body-item-tag-link-text">View Project</Link>
+							{/* <Link to="/explore" className="proj-body-item-tag-link-text">View Project</Link> */}
+							<a href="https://craave.vercel.app/" className="proj-body-item-tag-link-text" target="_blank" rel="noreferrer">View Project</a>
 						</div>
 					</div>
 					<div className="proj-body-item-right">
@@ -131,6 +132,13 @@ function Projects() {
 						<div className="proj-body-item-image">
 							<img className="proj-body-item-image-image" src={meezoCover}  alt="Meezo"/>
 						</div>
+					</div>
+				</div>
+				<div className="proj-body-item">
+					<div className="proj-body-item-tag-link-view-all">
+						{/* <button> */}
+							<Link to="/explore" className="proj-body-item-tag-link-text-view-all">View All Projects</Link>
+						{/* </button> */}
 					</div>
 				</div>
 			</div>
