@@ -5,7 +5,7 @@ import viraCover from "../../img/ViraArt.png"
 import meezoCover from "../../img/MeezoArt.png"
 import sliike from "../../img/hero.png"
 import izikjonCover from "../../img/IzikjonArt1.png"
-import Craave from "../../img/Craave1.PNG"
+import Craave from "../../img/Craave2.PNG"
 
 function Projects() {
 	return (
