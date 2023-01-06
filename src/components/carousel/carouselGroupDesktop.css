@@ -1,6 +1,24 @@
+.cgd-texts {
+	display: flex;
+	flex-direction: row;
+	width: 90px;
+	justify-content: space-between;
+	/* border: 1px solid red; */
+	margin: 30px 0px 10px 20px;
+	align-items: center;
+	padding: 10px;
+	border-radius: 20px;
+	background-color: #d1c4e9;
+	color: #311b92;
+}
 
-.text1 {
-	font-size: 4rem;
+.textItem:nth-child(1) {
+	font-size: 20px;
+}
+
+.textItem:nth-child(2) {
+	/* font-size: 4rem; */
+	font-size: 14px
 }
 
 .cgd-item {

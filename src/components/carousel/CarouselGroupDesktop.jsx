@@ -3,6 +3,9 @@ import "./carouselGroupDesktop.css";
 import {motion} from 'framer-motion';
 import Product from "../product/Product.jsx";
 import {desktop} from "../../data.jsx";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faDesktop } from '@fortawesome/free-solid-svg-icons'
+
 
 const CarouselGroupDesktop = ({id,img,alt,link}) => {
 
@@ -17,8 +20,8 @@ const CarouselGroupDesktop = ({id,img,alt,link}) => {
 	return (
 		<div className="cgd">
 			<div className="cgd-texts">
-				<span className="text1">.</span>
-				<span className="text2">Desktop</span>
+				<span className="textItem"><FontAwesomeIcon icon={faDesktop} /></span>
+				<span className="textItem">Desktop</span>
 			</div>
 
 			<motion.div ref={carousel} className="cgd-carousel" whileTap={{cursor: "grabbing"}}>

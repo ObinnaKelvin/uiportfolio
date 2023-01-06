@@ -3,6 +3,8 @@ import "./carouselGroupMobile.css";
 import {motion} from 'framer-motion';
 import Product from "../product/Product.jsx";
 import {mobile} from "../../data.jsx";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMobile } from '@fortawesome/free-solid-svg-icons'
 
 const CarouselGroupMobile = ({id,img,alt,link}) => {
 
@@ -17,8 +19,8 @@ const CarouselGroupMobile = ({id,img,alt,link}) => {
 	return (
 		<div className="cgm">
 			<div className="cgm-texts">
-				<span className="text1">.</span>
-				<span className="text2">Mobile</span>
+				<span className="textItem"><FontAwesomeIcon icon={faMobile}/></span>
+				<span className="textItem">Mobile</span>
 			</div>
 
 			<motion.div ref={carousel} className="cgm-carousel" whileTap={{cursor: "grabbing"}}>
