@@ -7,6 +7,7 @@ import Projects from "../projects/Projects.jsx";
 // import ProductList from "../productList/ProductList.jsx";
 import Contact from "../contact/Contact.jsx";
 import "./home.css";
+import Stats from '../stats/Stats.jsx';
 
 const Home = () => {
 	  	const theme = useContext(ThemeContext);
@@ -15,6 +16,7 @@ const Home = () => {
 		<div style={{backgroundColor: darkMode ? "#222" : "white", color: darkMode && "white"}}>
 	      <Toggle/>
 	      <Intro/>
+		  <Stats/>
 	      <Projects/>
 	     {/* <About/>*/}
 	     {/* <ProductList/>*/}

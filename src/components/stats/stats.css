@@ -1,0 +1,91 @@
+.stats-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-height: max-content;
+    /* border: 1px solid red; */
+    padding: 30px 0px 30px 0px;
+    margin-top: 30px;
+    background-color: #311B92;
+}
+
+.stats-container-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    position: relative;
+    /* border: 1px solid red; */
+}
+
+.holder-a{
+    /* background-color: blueviolet; */
+    background: linear-gradient(
+        #B39DDB,
+         #7E57C2
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 20px;
+    z-index: 1;
+    /* position: absolute; */
+}
+
+.holder-a:before,
+.holder-a:after {
+    content: '';
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background-color: #D1C4E9;
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.holder-a:before {
+    animation: holder-a 2s ease-out infinite;
+}
+
+.holder-a:after {
+    animation: holder-a 2s 1s ease-out infinite;
+}
+
+@keyframes holder-a {
+    100% {
+        transform: scale(1.6);
+        opacity: 0;
+    }
+}
+
+.holder-b {
+    font-size: 50px;
+    color: white;
+}
+
+.holder-c {
+    font-size: 17px;
+    font-style: italic;
+    color: white;
+}
+
+@media screen and (max-width:  480px) {
+
+    .stats-container {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+        max-height: max-content;
+        /* border: 1px solid red; */
+        /* padding: 30px 0px 30px 0px; */
+        margin-top: 30px;
+        background-color: #311B92;
+    }
+}
+
