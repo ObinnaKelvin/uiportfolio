@@ -28,7 +28,7 @@ const Explore = () => {
 	const [easyCt, setEasyCt] = useState(325);
 
 	const handleTraka = () => {
-		setCraaveCt(trakaCt+1);
+		setTrakaCt(trakaCt+1);
 	}
 
 	const handleCraave = () => {
