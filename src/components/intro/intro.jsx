@@ -18,7 +18,7 @@ const Intro = () => {
 						</div>
 					</div>
 					<div className="i-desc">
-						I'm an experienced web developer who constantly seeks out innovative solutions to everyday problems.
+						I'm an experienced ReactJS web developer who constantly seeks out innovative solutions to everyday problems.
 						I design and develop services from idea to implementation,
 						specilizing in creating stylish, modern websites and web applications.
 					</div>

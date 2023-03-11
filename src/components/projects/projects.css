@@ -54,6 +54,15 @@
 	border-radius: 20px;
 }
 
+.proj-body-item-image-image.traka {
+	width: 550px;
+	height: 400px;
+	/* object-fit: cover; */
+	object-fit: contain;
+	border-radius: 20px;
+	margin-top: -70px;
+}
+
 .proj-body-item-tag-holder {
 	display: flex;
 	margin-top: 20px;

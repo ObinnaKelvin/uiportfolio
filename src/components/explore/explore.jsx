@@ -14,17 +14,22 @@ import Typical from 'react-typical'
 import CarouselGroupMobile from "../carousel/CarouselGroupMobile.jsx"
 import CarouselGroupDesktop from "../carousel/CarouselGroupDesktop.jsx"
 import craave from '../../img/Craave2.PNG'
+import traka from '../../img/traka.PNG'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEye } from '@fortawesome/free-solid-svg-icons'
 
 const Explore = () => {
 		// const theme = useContext(ThemeContext);
   // 		const darkMode = theme.state.darkMode;
-
-	const [craaveCt, setCraaveCt] = useState(470);
-	const [covidCt, setCovidCt] = useState(470);
-	const [kelboxCt, setKelboxCt] = useState(470);
+  	const [trakaCt, setTrakaCt] = useState(24);	
+	const [craaveCt, setCraaveCt] = useState(476);
+	const [covidCt, setCovidCt] = useState(476);
+	const [kelboxCt, setKelboxCt] = useState(474);
 	const [easyCt, setEasyCt] = useState(325);
+
+	const handleTraka = () => {
+		setCraaveCt(trakaCt+1);
+	}
 
 	const handleCraave = () => {
 		setCraaveCt(craaveCt+1);
@@ -99,6 +104,29 @@ const Explore = () => {
 							</div>
 							<div className="exp-body-development-information">
 									<div className="exp-body-development-boxes">
+										<div className="exp-body-development-box">
+											<div className="exp-body-development-box-header">Traka</div>
+											<div className="exp-body-development-box-image">
+												<img className = "exp-body-development-box-image-image" src={traka} alt="Traka - An incidence reporting application"/>
+											</div>
+											<div className="exp-body-development-box-description-holder">
+												<div className="exp-body-development-box-description">
+												An incidence reporting application that enables enterprise application support users log incidences, 
+												bugs and fixes for software engineers to track and resolve.
+												</div>
+												<a href="https://traka.vercel.app/" onClick={handleTraka} className="exp-body-development-box-button-text" target="_blank" rel="noreferrer">
+													<div className="exp-body-development-box-button">
+														<span className="exp-body-development-box-button-item">View</span>
+													</div>
+												</a>
+												<div className="exp-body-development-box-views">
+													<span>{trakaCt}</span>
+													<span><FontAwesomeIcon icon={faEye}/></span>
+												</div>												
+											</div>
+	
+										</div>
+
 										<div className="exp-body-development-box">
 											<div className="exp-body-development-box-header">Craave</div>
 											<div className="exp-body-development-box-image">

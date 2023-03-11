@@ -6,6 +6,7 @@ import meezoCover from "../../img/MeezoArt.png"
 import sliike from "../../img/hero.png"
 import izikjonCover from "../../img/IzikjonArt1.png"
 import Craave from "../../img/Craave2.PNG"
+import traka from "../../img/traka.PNG"
 
 function Projects() {
 	return (
@@ -16,6 +17,33 @@ function Projects() {
 			{/*</div>*/}
 			<div className="proj-body">
 			<div className="proj-body-item">
+					<div className="proj-body-item-left">
+						<h2>Traka</h2>
+						<hr className="line"/>
+						<br/>
+						<p>
+							An incidence reporting application that enables enterprise application support users log incidences, 
+							bugs and fixes for software engineers to track and resolve.
+						</p>
+						<div className="proj-body-item-tag-holder">
+							<div className="proj-body-item-tags">React js</div>
+							<div className="proj-body-item-tags">Mongo DB</div>
+							<div className="proj-body-item-tags">Node Js</div>
+							<div className="proj-body-item-tags">REST API</div>
+							<div className="proj-body-item-tags">Redux</div>
+						</div>
+						<div className="proj-body-item-tag-link">
+							{/* <Link to="/explore" className="proj-body-item-tag-link-text">View Project</Link> */}
+							<a href="https://traka.vercel.app/" className="proj-body-item-tag-link-text" target="_blank" rel="noreferrer">View Project</a>
+						</div>
+					</div>
+					<div className="proj-body-item-right">
+						<div className="proj-body-item-image">
+							<img className="proj-body-item-image-image traka" loading="lazy" src={traka} alt="traka"/>
+						</div>
+					</div>
+				</div>
+				<div className="proj-body-item">
 					<div className="proj-body-item-left">
 						<h2>Craave</h2>
 						<hr className="line"/>

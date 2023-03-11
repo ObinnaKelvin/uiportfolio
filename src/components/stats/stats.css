@@ -50,16 +50,16 @@
 }
 
 .holder-a:before {
-    animation: holder-a 2s ease-out infinite;
+    animation: holder-a 3s ease-out infinite;
 }
 
 .holder-a:after {
-    animation: holder-a 2s 1s ease-out infinite;
+    animation: holder-a 3s 1s ease-out infinite;
 }
 
 @keyframes holder-a {
     100% {
-        transform: scale(1.6);
+        transform: scale(1.4);
         opacity: 0;
     }
 }
