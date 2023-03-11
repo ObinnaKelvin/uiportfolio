@@ -14,7 +14,7 @@ import Typical from 'react-typical'
 import CarouselGroupMobile from "../carousel/CarouselGroupMobile.jsx"
 import CarouselGroupDesktop from "../carousel/CarouselGroupDesktop.jsx"
 import craave from '../../img/Craave2.PNG'
-import traka from '../../img/traka.PNG'
+import traka from '../../img/traka1.PNG'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEye } from '@fortawesome/free-solid-svg-icons'
 

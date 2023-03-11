@@ -6,7 +6,7 @@ import meezoCover from "../../img/MeezoArt.png"
 import sliike from "../../img/hero.png"
 import izikjonCover from "../../img/IzikjonArt1.png"
 import Craave from "../../img/Craave2.PNG"
-import traka from "../../img/traka.PNG"
+import traka from "../../img/traka1.PNG"
 
 function Projects() {
 	return (
