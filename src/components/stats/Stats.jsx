@@ -12,7 +12,7 @@ const Stats = () => {
                 <FontAwesomeIcon icon={faCode} />
             </div>
             <div className='holder-b'>
-                <CountUp end={10000} duration={3}/>+
+                <CountUp end={10000} duration={2} enableScrollSpy={true}/>+
                 {/* 10,000+ */}
             </div>
             <div className='holder-c'>
@@ -24,7 +24,7 @@ const Stats = () => {
                 <FontAwesomeIcon icon={faCodeFork} />
             </div>
             <div className='holder-b'>
-                <CountUp end={600} duration={3}/>+
+                <CountUp end={600} duration={2} enableScrollSpy={true}/>+
                 {/* 600+ */}
             </div>
             <div className='holder-c'>
@@ -36,7 +36,7 @@ const Stats = () => {
                 <FontAwesomeIcon icon={faLaptopCode} />
             </div>
             <div className='holder-b'>
-                <CountUp end={5} duration={3}/>+
+                <CountUp end={5} duration={2} enableScrollSpy={true}/>+
                 {/* 5+ */}
             </div>
             <div className='holder-c'>
