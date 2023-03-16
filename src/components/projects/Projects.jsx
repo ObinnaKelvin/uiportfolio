@@ -31,6 +31,8 @@ function Projects() {
 							<div className="proj-body-item-tags">Node Js</div>
 							<div className="proj-body-item-tags">REST API</div>
 							<div className="proj-body-item-tags">Redux</div>
+							<div className="proj-body-item-tags">Firebase</div>
+							<div className="proj-body-item-tags">JWT</div>
 						</div>
 						<div className="proj-body-item-tag-link">
 							{/* <Link to="/explore" className="proj-body-item-tag-link-text">View Project</Link> */}
